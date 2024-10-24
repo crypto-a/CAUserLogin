@@ -32,4 +32,10 @@ public interface LoginUserDataAccessInterface {
      * @param name the name of the user
      */
     void setCurrentUser(String name);
+
+    /**
+     * This method is the getter for the username.
+     * @return name of user
+     */
+    String getUsername();
 }
